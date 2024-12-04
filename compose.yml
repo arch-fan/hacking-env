@@ -1,0 +1,7 @@
+services:
+  nixos:
+    build: .
+    hostname: hacknix
+    container_name: hacknix
+    tty: true
+    stdin_open: true
